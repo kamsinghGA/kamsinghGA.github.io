@@ -1,325 +1,521 @@
-body {  
-    margin-top: 80px;  
-    padding: 30px;  
-    background-size: cover;  
-    font-family: sans-serif;  
-    background-image: linear-gradient(rgba(21,27,30, 0.8),
-    rgba(0.3, 0, 0, 0.2)), url(https://i.imgur.com/dMUWt67.jpg);
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    min-height: 400px;
-}  
-
-.container {
-    background-image: url("https://i.imgur.com/h0gX6IH.jpg");
-}
-
-header {  
-    background-color: rgb(33,37,41);
-    position: fixed;  
-    left: 0;  
-    right: 0;  
-    top: 0;  
-    height: 50px;  
-    display: flex;  
-    align-items: center;  
-}  
-
-#nav-logo{
-    text-align: left;
-    width: 4000px;
-    margin-left: 100px;
-    color: rgb(251,188,29);
-
-}
-
-nav ul li a:hover{
-    color:rgb(40,136,187);
-}
-nav ul li a{
-    font-size: 20px;
-}
-
-header * {  
-    display: inline;  
-}  
-header li {  
-    margin: 10px;  
+/* Styles for desktop screens */
+@media only screen and (min-width: 1024px) {
+    body {  
+        margin-top: 80px;  
+        padding: 30px;  
+        background-size: cover;  
+        font-family: sans-serif;  
+        background-image: linear-gradient(rgba(21,27,30, 0.8),
+        rgba(0.3, 0, 0, 0.2)), url(https://i.imgur.com/dMUWt67.jpg);
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        min-height: 400px;
+    }  
     
-}  
-header li a {  
-    color: rgb(251,188,29);  
-    text-decoration: none;
-    font-weight: 200;
-}  
-
-#heading {
-    margin-left: -3000px;
-}
-
-#intro {
-    height: 625px;
-    margin-top: 250px;
-    left: 0;  
-    right: 0;  
-    top: 0;
-}
-
-#intro h1 {
-    margin: 0 auto 0 auto;
-    width: 1000px;
-    text-align: center;
-    font-weight:bold;
-    margin-top: 10px;
-    font-size: 70px;
-    color: white;
-    font-family: 'Monomaniac One', sans-serif; 
-}
-
-#intro h2 {
-    margin: 0 auto 0 auto;
-    margin-top: 5px;
-    width: 700px;
-    text-align: center;
-    font-weight:bold;
-    font-size: 45px;
-    color: white;
+    .container {
+        background-image: url("https://i.imgur.com/h0gX6IH.jpg");
+    }
     
+    header {  
+        background-color: rgb(33,37,41);
+        position: fixed;  
+        left: 0;  
+        right: 0;  
+        top: 0;  
+        height: 50px;  
+        display: flex;  
+        align-items: center;  
+    }  
+    
+    #nav-logo{
+        text-align: left;
+        width: 4000px;
+        margin-left: 100px;
+        color: rgb(251,188,29);
+    
+    }
+    
+    nav ul li a:hover{
+        color:rgb(40,136,187);
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    
+    header * {  
+        display: inline;  
+    }  
+    header li {  
+        margin: 10px;  
+        
+    }  
+    header li a {  
+        color: rgb(251,188,29);  
+        text-decoration: none;
+        font-weight: 200;
+    }  
+    
+    #heading {
+        margin-left: -3000px;
+    }
+    
+    #intro {
+        height: 625px;
+        margin-top: 250px;
+        left: 0;  
+        right: 0;  
+        top: 0;
+    }
+    
+    #intro h1 {
+        margin: 0 auto 0 auto;
+        width: 1000px;
+        text-align: center;
+        font-weight:bold;
+        margin-top: 10px;
+        font-size: 70px;
+        color: white;
+        font-family: 'Monomaniac One', sans-serif; 
+    }
+    
+    #intro h2 {
+        margin: 0 auto 0 auto;
+        margin-top: 5px;
+        width: 700px;
+        text-align: center;
+        font-weight:bold;
+        font-size: 45px;
+        color: white;
+        
+    }
+    
+    #link-buttons {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #github, #linkedin {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .logos {
+        margin-top: 10px;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        height: 90px;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        border-radius: 50%;
+        height: 220px;
+        border: solid whitesmoke 5px;
+    }
+    
+    #banner {
+        background: white;
+        height: 100px;
+        margin-top: 30px;
+    }
+    
+    .float-container {
+        background-color: rgb(248,208,184);
+        height:500px;
+        margin-top: -165px;
+    }
+    
+    
+    .float-child.pic {
+        margin-right: 50px;
+        float: left;
+        margin-top: 70px;
+        margin-left: 500px;
+        background-color: rgb(248,208,184);
+    
+    }
+    
+    .float-child.text h2{
+        margin-bottom: -10px;
+        width: 80%;
+        font-weight: 100;
+    }
+    
+    .float-child.text {
+        background-color: rgb(248,208,184);
+        margin-top: 100px;
+    }
+    
+    #bio-pic {
+        height: 300px;
+        border-radius: 50%;
+        margin-left: 50px;
+        border: solid whitesmoke 5px;
+    }
+    
+    .float-child.text p{
+        margin-top: px;
+        width: 80%;
+        text-align: left;
+    }
+    
+    .float-child.text h1{
+       color: rgb(248,208,184);;
+    }
+    
+    .skills-div {
+        background-color: rgb(40, 136, 187);
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        margin-top: -70px;
+    }
+    
+    .skills-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skill-item {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .skill-item img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .skill-item h3 {
+        margin-top: 10px;
+    }
+    
+    #projects {
+        background-color: rgb(248, 208, 184);
+        margin-top: -55px;
+        height: 750px;
+        padding-top: 0px;
+    }
+    
+    #projects h1 {
+        font-weight: 100;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .project-div {
+        background-color: whitesmoke;
+        height: 300px;
+        width: 20%;
+        border: 1px solid black;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        position: relative; /* Added position relative */
+    }
+    
+    .project-div .description {
+        display: none;
+        position: absolute;
+        top: 50%; /* Position at the center vertically */
+        left: 50%; /* Position at the center horizontally */
+        transform: translate(-50%, -50%); /* Center the description */
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        width: 90%;
+        text-align: center;
+        z-index: 2; /* Ensure description is on top */
+    }
+    
+    #project4, #project5, #project6 {
+        margin-top: 0px;
+    }
+    
+    #project1, #project4 {
+        margin-left: 350px;
+    }
+    
+    
+    #contact-me-section {
+        background-color: whitesmoke;
+        margin-top: -31px;
+        color: black;
+        height: 400px
+    }
+    
+    #contact-me-section h1{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 100;
+    }
+    
+    #contact-me-section h3{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 100;
+    }
+    
+    .info {
+        margin-left: 720px;
+    }
+    
+    .project-div .description {
+        display: none;
+    }
+    
+    .project-div.show-description .description {
+        display: hidden;
+    }
+    
+    .project-div.hovered {
+        background-color: rgb(251,188,29);
+    }
+    
+    .randomImager {
+        padding: 10px;
+    }
+    
+    
+    #resume {
+        background-color: rgb(40,136,187);
+        margin-top: -22px;
+        margin-bottom: -40px;
+        height:1100px;
+    }
+    
+    #resume-img {
+        display: none;
+        text-align: center;
+    }
+    
+    #resume.clicked {
+        height:1000px;
+    }
+    
+    #resume img{
+        height: 1000px;
+    }
+
+    #resume h1 {
+        text-align: center;
+        color:whitesmoke;
+        font-weight: 100;
+    }
+    
+    #resume button {
+        margin: 0 auto 0 auto;
+        display: block;
+    }
 }
+  
+@media only screen and (max-width: 768px) {
+    /* Header styles */
+    header {
+        justify-content: space-between;
+        padding: 10px;
+        height: auto;
+    }
+    
+    #nav-logo {
+        margin-left: 10px;
+    }
+    
+    #heading {
+        display: none;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    /* Intro section styles */
+    #intro {
+        margin-top: 150px;
+    }
+    
+    #intro h1 {
+        font-size: 40px;
+    }
+    
+    #intro h2 {
+        font-size: 30px;
+    }
+    
+    .logos {
+        width: 40%;
+        height: 70px;
+    }
+    
+    .center {
+        width: 40%;
+        height: 200px;
+    }
+    
+    /* About Me section styles */
+    .float-container {
+        margin-top: -90px;
+        height: auto;
+        display: block;
+    }
+    
+    .float-child.pic {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .float-child.text {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #bio-pic {
+        height: 200px;
+    }
+    
+    .float-child.text p {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    /* Skills section styles */
+    .skills-container {
+        flex-direction: column;
+    }
 
-#link-buttons {
-    text-align: center;
-    padding: 20px;
-}
-
-#github, #linkedin {
-    padding: 10px;
-    margin: 10px;
-}
-
-.logos {
-    margin-top: 10px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 90px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
-    border-radius: 50%;
-    height: 220px;
-    border: solid whitesmoke 5px;
-}
-
-#banner {
-    background: white;
-    height: 100px;
-    margin-top: 30px;
-}
-
-.float-container {
-    background-color: rgb(248,208,184);
-    height:500px;
-    margin-top: -165px;
-}
-
-
-.float-child.pic {
-    margin-right: 50px;
-    float: left;
-    margin-top: 70px;
-    margin-left: 500px;
-    background-color: rgb(248,208,184);
-
-}
-
-.float-child.text h2{
-    margin-bottom: -10px;
-    width: 80%;
-    font-weight: 100;
-}
-
-.float-child.text {
-    background-color: rgb(248,208,184);
-    margin-top: 100px;
-}
-
-#bio-pic {
-    height: 300px;
-    border-radius: 50%;
-    margin-left: 50px;
-    border: solid whitesmoke 5px;
-}
-
-.float-child.text p{
-    margin-top: px;
-    width: 80%;
-    text-align: left;
-}
-
-.float-child.text h1{
-   color: rgb(248,208,184);;
-}
-
-.skills-div {
-    background-color: rgb(40, 136, 187);
-    color: white;
-    padding-top: 30px;
-    text-align: center;
-    margin-top: -70px;
-}
-
-.skills-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.skill-item {
-    margin: 10px;
-    text-align: center;
-}
-
-.skill-item img {
-    display: block;
-    margin: 0 auto;
-}
-
-.skill-item h3 {
-    margin-top: 10px;
-}
-
-#projects {
-    background-color: rgb(248, 208, 184);
-    margin-top: -31px;
-    height: 750px;
+    .skill-item img {
+        width: 50%;
+        height: auto;
+        }
+    
+    /* Projects section styles */
+    #projects {
+    margin-top: -1px;
+    height: auto;
     padding-top: 10px;
+    }
+
+    .project-div {
+    width: 80%;
+    margin-left: 10%;
+    }
+
+    /* Resume section styles */
+    #resume {
+    height: auto;
+    padding-bottom: 40px;
+    }
+    
+}
+  
+@media only screen and (max-width: 480px) {
+    /* Header styles */
+    header {
+      justify-content: space-between;
+      padding: 10px;
+      height: auto;
+    }
+  
+    #nav-logo {
+      margin-left: 10px;
+    }
+  
+    #heading {
+      display: none;
+    }
+  
+    nav ul {
+      display: none;
+    }
+  
+    /* Intro section styles */
+    #intro {
+      margin-top: 100px;
+    }
+  
+    #intro h1 {
+      font-size: 32px;
+    }
+  
+    #intro h2 {
+      font-size: 24px;
+    }
+  
+    .logos {
+      width: 60%;
+      height: 50px;
+    }
+  
+    .center {
+      width: 70%;
+      height: 150px;
+    }
+  
+    /* About Me section styles */
+    .float-container {
+      margin-top: -60px;
+      height: auto;
+      display: block;
+    }
+  
+    .float-child.pic {
+      float: none;
+      margin: 0 auto;
+    }
+  
+    .float-child.text {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    #bio-pic {
+      height: 150px;
+    }
+  
+    .float-child.text p {
+      margin-top: 20px;
+      width: 100%;
+    }
+  
+    /* Skills section styles */
+    .skills-container {
+      flex-direction: column;
+    }
+  
+    .skill-item img {
+      width: 60%;
+      height: auto;
+    }
+  
+    /* Projects section styles */
+    #projects {
+      margin-top: -1px;
+      height: auto;
+      padding-top: 10px;
+    }
+  
+    .project-div {
+      width: 90%;
+      margin-left: 5%;
+    }
+  
+    /* Resume section styles */
+    #resume {
+      height: auto;
+      padding-bottom: 40px;
+    }
 }
 
-#projects h1 {
-    font-weight: 100;
-    text-align: center;
-    padding-top: 0px;
-}
-
-.project-div {
-    background-color: whitesmoke;
-    height: 300px;
-    width: 20%;
-    border: 1px solid black;
-    display: inline-block;
-    margin-top: 20px;
-    border-radius: 12px;
-    cursor: pointer;
-    position: relative; /* Added position relative */
-}
-
-.project-div .description {
-    display: none;
-    position: absolute;
-    top: 50%; /* Position at the center vertically */
-    left: 50%; /* Position at the center horizontally */
-    transform: translate(-50%, -50%); /* Center the description */
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    width: 90%;
-    text-align: center;
-    z-index: 2; /* Ensure description is on top */
-}
-
-#project4,
-#project5,
-#project6 {
-    margin-top: 0px;
-}
-
-#project1,
-#project4 {
-    margin-left: 350px;
-}
-
-
-#contact-me-section {
-    background-color: whitesmoke;
-    margin-top: -31px;
-    color: black;
-    height: 400px
-}
-
-#contact-me-section h1{
-    text-align: center;
-    padding-top: 20px;
-    font-weight: 100;
-}
-
-#contact-me-section h3{
-    text-align: center;
-    padding-top: 20px;
-    font-weight: 100;
-}
-
-.info {
-    margin-left: 720px;
-}
-
-.project-div .description {
-    display: none;
-}
-
-.project-div.show-description .description {
-    display: hidden;
-}
-
-.project-div.hovered {
-    background-color: rgb(251,188,29);
-}
-
-.randomImager {
-    padding: 10px;
-}
-
-
-#resume {
-    background-color: rgb(40,136,187);
-    margin-top: -22px;
-    margin-bottom: -40px;
-    height:1100px;
-}
-
-#resume-img {
-    display: none;
-    text-align: center;
-}
-
-#resume.clicked {
-    height:1000px;
-}
-
-#resume img{
-    height: 1000px;
-}
-
-
-
-#resume h1 {
-    text-align: center;
-    color:whitesmoke;
-    font-weight: 100;
-}
-
-#resume button {
-    margin: 0 auto 0 auto;
-    display: block;
-}
 
 
 
