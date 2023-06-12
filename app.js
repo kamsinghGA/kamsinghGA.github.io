@@ -35,22 +35,21 @@ function linkedin() {
 
 function projectToggle() {
     // Get all project divs
-    const projectDivs = $('.project-div');
+    // const projectDivs = $('.project-div');
 
-    projectDivs.each(function(projectDiv) {
-        console.log(this);
-        $(this).on('click', function() {
-            $(this).children().children('.description').css('display', 'block');
-        });
-});
-
-    // Add click event listener to each project div
-    // projectDivs.forEach((projectDiv) => {
-    //     projectDiv.addEventListener('click', () => {
-    //         // Toggle the 'show-description' class
-    //         projectDiv.classList.toggle('show-description');
+    // projectDivs.each(function(projectDiv) {
+    //     console.log(this);
+    //     $(this).on('click', function() {
+    //         $(this).children().children('.description').css('display', 'block');
     //     });
     // });
+
+    $('.project-div').on('click', function() {
+        $('.description').hide(); // Hide all descriptions
+    
+        const description = $(this).find('.description');
+        description.fadeIn(); // Show the clicked description
+      });
 }
 
 function changeColor() {
@@ -92,7 +91,7 @@ function viewResume2 () {
     button on page where home page background changes
     clicking shows the description for project div - convert to jquery
     add in resume page
-    readme page
+    readme
 */
 
 

@@ -51,7 +51,7 @@ You can visit the live site at [Kam's Portfolio](kamsinghGA.github.io).
 
 ## Unsolved Problems
 
-As of now, there are no known unsolved problems in the portfolio website. However, I plan to continuously update and improve the website by adding more projects and enhancing its functionality based on my evolving skills and interests.
+Certain unsolved problems include the toggling of the project-divs and the CSS portion of the skills section.
 
 
 
