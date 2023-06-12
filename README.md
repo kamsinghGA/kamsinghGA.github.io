@@ -1,6 +1,6 @@
 # Kam's Portfolio
 
-The purpose of this website is to showcase my skills, projects, and provide a platform for potential employers or clients to learn more about me.
+The goal of this website is to exhibit my abilities, projects, and present a platform for potential employers to learn more about me.
 
 ## Technologies Used
 
@@ -23,11 +23,11 @@ The approach taken for building this portfolio website involved the following st
 
 2. **HTML Markup**: I created the HTML markup for each section of the website. I structured the content using semantic HTML elements and added relevant classes and IDs for styling and JavaScript manipulation.
 
-3. **CSS Styling**: I applied CSS styles to the HTML elements to achieve the desired visual appearance. I used CSS properties like background colors, margins, padding, font styles, and positioning to create an aesthetically pleasing layout.
+3. **CSS Styles**: Applied CSS styles to the HTML elements to achieve the desired look. I used CSS properties such as background color, margins, spacing, font style, position, etc. to create an aesthetically pleasing layout. 
 
-4. **JavaScript and jQuery**: I used JavaScript and jQuery to add interactivity to the website. I implemented features like smooth scrolling navigation, image slideshow, hover effects on project descriptions, and a button to change the background image dynamically.
+4. **JavaScript and jQuery**: I utilized JavaScript and jQuery to include interactivity to the site. I executed highlights like smooth looking over route, picture slideshow, drift impacts on extended portrayals, and a button to alter the foundation image dynamically.
 
-5. **Testing and Refinement**: Throughout the development process, I tested the website on different devices and browsers to ensure compatibility and responsiveness. He made adjustments to the design and functionality based on user feedback and his own testing.
+5. **Testing and Refinement**: All through the improvement preparation, I tried the site on distinctive browsers to check for compatibility and responsiveness.
 
 ## Installation Instructions
 
@@ -47,7 +47,7 @@ To run this portfolio website locally on your machine, follow these steps:
 
 ## Live Site
 
-You can visit the live site at [Kam's Portfolio](kamsinghGA.github.io).
+You can visit the live site at: kamsinghGA.github.io
 
 ## Unsolved Problems
 
