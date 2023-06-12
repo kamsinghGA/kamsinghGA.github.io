@@ -92,6 +92,7 @@ function viewResume2 () {
     button on page where home page background changes
     clicking shows the description for project div - convert to jquery
     add in resume page
+    readme page
 */
 
 
