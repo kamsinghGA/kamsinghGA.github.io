@@ -42,7 +42,7 @@ function projectToggle() {
     //     $(this).on('click', function() {
     //         $(this).children().children('.description').css('display', 'block');
     //     });
-    // });
+    // })
 
     $('.project-div').on('click', function() {
         $('.description').hide(); // Hide all descriptions
