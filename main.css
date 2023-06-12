@@ -1,5 +1,5 @@
 /* Styles for desktop screens */
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
     body {  
         margin-top: 80px;  
         padding: 30px;  
@@ -319,7 +319,7 @@
     }
 }
   
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /* Header styles */
     header {
         justify-content: space-between;
@@ -418,7 +418,7 @@
     
 }
   
-@media only screen and (max-width: 480px) {
+@media (max-width: 500px) {
     /* Header styles */
     header {
       justify-content: space-between;
